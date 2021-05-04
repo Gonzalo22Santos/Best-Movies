@@ -16,20 +16,17 @@ const Navbar = ({toggle}) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to='about'>About</NavLinks> 
-            </NavItem>
-            <NavItem>
-              <NavLinks to='about'>Movies</NavLinks> 
+              <NavLinks to='movies'>Movies</NavLinks> 
             </NavItem>
             <NavItem>
               <NavLinks to='series'>Series</NavLinks> 
             </NavItem>
             <NavItem>
-              <NavLinks to='signup'>Sign Up</NavLinks> 
+              <NavLinks to='top'>Top</NavLinks> 
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <NavBtnLink to='/search'>Search</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
