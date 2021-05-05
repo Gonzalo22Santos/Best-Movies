@@ -10,6 +10,17 @@ export const HeroContainer = styled.div `
   height: 800px;
   position: relative;
   z-index: 1;
+
+
+  :before {
+    content: '';
+    position: absolute;
+    top:0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    
+  }
  
 `
 
@@ -45,11 +56,11 @@ export const HeroContent = styled.div `
 
 export const HeroH1 = styled.h1 `
   color: #fff;
-  font-size: 48px;
+  font-size: 28px;
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 20px;
   }
 
 `

@@ -20,9 +20,10 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src= {Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1>Find the best rated movies & series</HeroH1>
+                <HeroH1>You will never get tired of watching these movies</HeroH1>
                 <HeroP>
-                   
+
+                
                         
                 </HeroP>
                 <HeroBtnWrapper>
